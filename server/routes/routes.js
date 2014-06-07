@@ -5,7 +5,7 @@ var routes = [
   { method: 'GET', path: '/', handler: home },
   { method: 'GET', path: '/home', handler: home },
   { method: 'GET', path: '/about', handler: about },
-  { method: 'GET', path: '/css/{path*}', handler: { directory: { path: '../public/assets/css' } } }
+  { method: 'GET', path: '/css/{path*}', handler: { directory: { path: './public/assets/css' } } }
 
 ];
 

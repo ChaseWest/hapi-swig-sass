@@ -1,6 +1,6 @@
 var options = {
   views: {
-      path: './views',
+      path: './server/views',
       engines: {
           html: 'swig'
       }
