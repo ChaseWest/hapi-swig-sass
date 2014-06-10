@@ -2,7 +2,7 @@ module.exports = {
 
   index: {
     handler: function(request, reply){
-        reply.view('index');
+        reply.view('index', {name: "chase"});
     }
   },
 
